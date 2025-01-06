@@ -5,22 +5,19 @@ int main()
 {
     int t;
     cin >> t;
-
-    while (t >= 1 && t <= 10000)
+    while (t--)
     {
-        int a, b, count = 0;
-        cin >> a >> b;
-
-        while (a > b)
+        long long n;
+        cin >> n;
+       
+        if (n <= 1)
         {
-            a++;
-            b--;
-            count++;
+            cout << 0 << endl; 
         }
-
-        cout << count << endl;
-        t--;
+        else
+        {
+            cout << (n - 1) / 2 << endl; 
+        }
     }
-
     return 0;
 }
