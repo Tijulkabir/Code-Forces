@@ -7,7 +7,7 @@ int main()
     cin >> t;
     while (t--)
     {
-        long long n;
+        int  n;
         cin >> n;
        
         if (n <= 1)
