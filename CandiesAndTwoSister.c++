@@ -7,16 +7,16 @@ int main()
     cin >> t;
     while (t--)
     {
-        int  n;
-        cin >> n;
+        int  a;
+        cin >> a;
        
-        if (n <= 1)
+        if (a <= 1)
         {
             cout << 0 << endl; 
         }
         else
         {
-            cout << (n - 1) / 2 << endl; 
+            cout << (a - 1) / 2 << endl; 
         }
     }
     return 0;
